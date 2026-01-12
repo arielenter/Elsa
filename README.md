@@ -276,7 +276,8 @@ scratch (like when running through flycheck or flymake).
 
 Elsa currently supports [lsp-mode][lsp-mode], but it is not yet
 built-in to lsp-mode itself because it (Elsa LSP) is not stable
-enough.  To use Elsa LSP, run `(elsa-lsp-register)` or `M-x
+enough.  To use Elsa LSP, you must use `eask emacs` to start emacs,
+run `(require 'elsa-lsp)` and then `(elsa-lsp-register)` or `M-x
 elsa-lsp-register`to register the client with `lsp-mode`.  After that,
 using `M-x lsp` in an Elisp buffer will start a workspace.
 
