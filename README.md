@@ -459,3 +459,13 @@ and admiration.
 [emake]: https://github.com/vermiculus/emake.el
 [MELPA]: https://melpa.org
 [lsp-mode]: https://emacs-lsp.github.io/lsp-mode/
+
+# Using Emacs on its own
+
+Some of the functionality offer by elsa while using Emacs, like
+autocompletion and syntax check, might be accomplish by using both
+‘company-mode’ and ‘flycheck-mode’ which are available out of the box in
+Emacs.
+
+This project is set up to provide a lot more, but it's worth knowing
+that some functionality exist within Emacs on its own.
